@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- google font roboto  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="protfolio.css">
+</head>
+<body>
+    <!-- header sectoin start here  -->
+    <header id="portfolio-heaader">
+        <figure class="logo-figure">
+            <!-- <img src="./image/logo.png" class="logo" />  -->
+            <i class="fa-solid fa-won-sign logo"></i> 
+        </figure>
+        <i class="fas fa-bars fa-4x " id="menu-icon"></i> 
+
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><a href="#" class="nav__link">Home</a></li>
+                
+
+            </ul>
+        </nav>
+    </header>
+    <!-- Contact section start here  -->
+    <section id="contact-section" class="section-center">
+        <h2 class="section-title text-align">Contact Me</h2>
+        <form>
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input type="text" id="name" autocomplete="name" required >
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" id="email" autocomplete="name" required >
+            </div>
+
+            <div class="form-control ">
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div class="form-control form-button-field">
+                <button class="btn contact__btn">Submit</button>
+            </div>
+        </form>
+    </section>
+    <!-- Contact section ends here  -->
+
+    <!-- footer start here  -->
+    <footer class="footer">
+        <p class="copyright__text">
+            Copyright &copy; Nadim Ahmed. All rights reserved
+        </p>
+        <nav class="footer__nav">
+            <a href="#portfolio-banner-section" 
+            class="footer__link">Home</a>
+            <i class="fa fa-home footer__icon"></i>
+
+            <a href="https://www.facebook.com/nadim.ahmed275/" 
+            target="_blank" class="footer__link">Facebook</a>
+            <i class="fab fa-facebook footer__icon"></i>
+
+            <a href="https://www.youtube.com/channel/UCnT5BstkBaD4tIxWSArY7OQ/" 
+            target="_blank" class="footer__link">Youtube</a>
+            <i class="fab fa-youtube footer__icon"></i>
+
+            <a href="https://www.linkedin.com/in/md-nadim-miah-403661176/" 
+            target="_blank" class="footer__link">Linkedin</a>
+            <i class="fab fa-linkedin footer__icon"></i>
+
+            <a href="https://github.com/NadimAhmed2/" 
+            target="_blank" class="footer__link">Github</a>
+            <i class="fab fa-github footer__icon"></i>
+
+            <a href="https://dribbble.com/nadimahmed707/" 
+            target="_blank" class="footer__link">Dibbble</a>
+            <i class="fab fa-dribbble footer__icon"></i>
+        </nav>   
+    </footer>
+    <!-- footer ends here  -->
+</body>
+</html>
